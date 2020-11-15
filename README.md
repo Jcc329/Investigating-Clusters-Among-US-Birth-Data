@@ -3,7 +3,7 @@ Homework 2 for Data 602, Machine Learning
 By <a href="https://github.com/Jcc329">Jessica Conroy Styer</a>
 
 ## Table of Contents
-
+<b> Notebooks may run faster or slower based on the computational resources available </b>
 <ul>
   <li><a href="https://github.com/Jcc329/Investigating-Clusters-Among-US-Birth-Data/tree/main/Data%20Files">Data Files</a> - The zip files containing the data used in the technical report. The original data file was too large to post but is available upon request</li>
   <li><b>Notebooks</b> - The Jupyter notebooks used to complete this project.</li>

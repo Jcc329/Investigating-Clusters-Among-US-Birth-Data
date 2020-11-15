@@ -9,9 +9,10 @@ By <a href="https://github.com/Jcc329">Jessica Conroy Styer</a>
   <li><b>Notebooks</b> - The Jupyter notebooks used to complete this project.</li>
   <ul>
     <li><a href="https://github.com/Jcc329/Investigating-Clusters-Among-US-Birth-Data/blob/main/Notebooks/Data%20Acquisition.ipynb">1. Data Acquisition</a></li> - The notebook showing how the initial data was aqcuired and cleaned to create a csv.
-    <li><a href="https://github.com/Jcc329/Investigating-Clusters-Among-US-Birth-Data/blob/main/Notebooks/Data%20Cleaning.ipynb">1. Data Cleaning</a></li> - The notebook showing how the initial data was processed to create the cleaned dataset.
-    <li><a href="https://github.com/Jcc329/Investigating-Clusters-Among-US-Birth-Data/blob/main/Notebooks/Exploratory%20Analysis%20HW%202.ipynb">2. Exploratory Analysis</a> - The notebook containing exploratory analyses </li>
-    <li><a href="https://github.com/Jcc329/Select-the-best-Wine-Predicting-wine-quality/blob/main/Jupyter%20Notebooks/Project%201%20Technical%20Notebook%20Updated.ipynb">3. Technical Report</a> - The technical notebook containing the report and final models used.</li>
+    <li><a href="https://github.com/Jcc329/Investigating-Clusters-Among-US-Birth-Data/blob/main/Notebooks/Data%20Cleaning.ipynb">2. Data Cleaning</a></li> - The notebook showing how the initial data was processed to create the cleaned dataset.
+    <li><a href="https://github.com/Jcc329/Investigating-Clusters-Among-US-Birth-Data/blob/main/Notebooks/Exploratory%20Analysis%20HW%202.ipynb">3. Exploratory Analysis</a> - The notebook containing exploratory analyses </li>
+    <li><a href="https://github.com/Jcc329/Investigating-Clusters-Among-US-Birth-Data/blob/main/Notebooks/Technical%20Notebook%20HW%202.ipynb">4. Technical Report - sample data</a> - The technical notebook containing the report and final models used applied to a random sample of the data due to data size and to improve runtime (1% of data used). </li>
+    <li><a href="">4. Technical Report - sample complete data data</a> - The technical notebook containing the report and final models used applied to the complete dataset. <b>[Will be posted when it finishes running]</b></li>
   </ul>
   <li><a href="https://github.com/Jcc329/Investigating-Clusters-Among-US-Birth-Data/blob/main/README.md">README.md</a> - An overview of the project and results</li> 
   <li><a href="https://github.com/Jcc329/Investigating-Clusters-Among-US-Birth-Data/tree/main/Supplemental%20Files">Suplemental files</a> - The .py file containing functions called in the notebooks</li>
@@ -54,9 +55,11 @@ The files used for this project included data from 2019 and documentation for th
 The original data file was a text file containing 5gb of data, consisting of 3757582 rows of data and 228 columns. After dropping rows with missing data and duplicates, as well as unneeded columns containing duplicate data (such as multiple recodes), data flags, and imputation flags (flags for were data was imputed which is not needed in this analysis) the final dataset contained 2897669 rows and 87 columns for a final file size of 561KB. 
 
 ### Conclusion
-After dimensionality reduction, there appear to be 6 clusters in the data, however, as the sihouette score (close to 0) and the visualization demonstrate, these clusteres overlap to a high degree. This makes it difficult to draw actionable insights from the data. Additional analysis may be required to tease out the nuances of this data and discover targets for intervension.
+After dimensionality reduction, there appear to be 3 clusters in the data. Upon closer analysis of the differences between those clusters, I found that parental age, prior births, birth weight, maternal BMI,and parental education were among the features that most varied among groups. These data can be used to now target those populations most at risk of a negative outcome, for example, the cluster with the highest parental ages also had higher APGAR5 scores, indicating poorer health indicators for the infant after birth.
 
-Despite not finding clear clusters in the data, I was able to gain experience applying a clustering algorithm as well as working with a larger, more complex dataset than I am used to. I was able to gain a better understanding of PCA and how to apply it practically, as well as what DBSCAN is, when it is best applied, and how to determine the values for each of the parameters. I feel that I have gained a lot through this project in terms of experience and practice. 
+Additional analysis may be required to tease out the nuances of the groups and discover additional targets for intervension.
+
+Using this project I was able to gain experience applying a clustering algorithm as well as working with a larger, more complex dataset than I am used to. I was able to gain a better understanding of PCA and how to apply it practically, as well as what DBSCAN is, when it is best applied, and how to determine the values for each of the parameters. I feel that I have gained a lot through this project in terms of experience and practice. 
 
 ### Packages and Software
 Software:

@@ -5,10 +5,11 @@ By <a href="https://github.com/Jcc329">Jessica Conroy Styer</a>
 ## Table of Contents
 
 <ul>
-  <li><a href="https://github.com/Jcc329/Select-the-best-Wine-Predicting-wine-quality/tree/main/Data%20Files">Data Files</a> - The csv file used in the technical report</li>
-  <li><b>Notebooks</b> - The Jupyter notebooks used to complete this project. These links lead to the updated version of the notebook as of 10/18/2020. Older versions can also be found in the folder</li>
+  <li><a href="https://github.com/Jcc329/Select-the-best-Wine-Predicting-wine-quality/tree/main/Data%20Files">Data Files</a> - The zip files containing the data used in the technical report. The original data file was too large to post but is available upon request</li>
+  <li><b>Notebooks</b> - The Jupyter notebooks used to complete this project.</li>
   <ul>
-    <li><a href="https://github.com/Jcc329/Select-the-best-Wine-Predicting-wine-quality/blob/main/Jupyter%20Notebooks/Project%201%20Initial%20Data%20Cleaning%20Updated%2010_18.ipynb">1. Data Cleaning</a></li> - The notebook showing how the initial data was processed to create the cleaned dataset.
+    <li><a href="https://github.com/Jcc329/Investigating-Clusters-Among-US-Birth-Data/blob/main/Notebooks/Data%20Acquisition.ipynb">1. Data Acquisition</a></li> - The notebook showing how the initial data was aqcuired and cleaned to create a csv.
+    <li><a href="https://github.com/Jcc329/Investigating-Clusters-Among-US-Birth-Data/blob/main/Notebooks/Data%20Acquisition.ipynb">1. Data Cleaning</a></li> - The notebook showing how the initial data was processed to create the cleaned dataset.
     <li><a href="https://github.com/Jcc329/Select-the-best-Wine-Predicting-wine-quality/blob/main/Jupyter%20Notebooks/Project%201%20Exploratory%20Analysis%20Updated.ipynb">2. Exploratory Analysis</a> - The notebook containing exploratory analyses </li>
     <li><a href="https://github.com/Jcc329/Select-the-best-Wine-Predicting-wine-quality/blob/main/Jupyter%20Notebooks/Project%201%20Technical%20Notebook%20Updated.ipynb">3. Technical Report</a> - The technical notebook containing the report and final models used.</li>
   </ul>

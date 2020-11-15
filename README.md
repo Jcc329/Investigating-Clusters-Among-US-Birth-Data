@@ -10,7 +10,7 @@ By <a href="https://github.com/Jcc329">Jessica Conroy Styer</a>
   <ul>
     <li><a href="https://github.com/Jcc329/Investigating-Clusters-Among-US-Birth-Data/blob/main/Notebooks/Data%20Acquisition.ipynb">1. Data Acquisition</a></li> - The notebook showing how the initial data was aqcuired and cleaned to create a csv.
     <li><a href="https://github.com/Jcc329/Investigating-Clusters-Among-US-Birth-Data/blob/main/Notebooks/Data%20Cleaning.ipynb">1. Data Cleaning</a></li> - The notebook showing how the initial data was processed to create the cleaned dataset.
-    <li><a href="https://github.com/Jcc329/Select-the-best-Wine-Predicting-wine-quality/blob/main/Jupyter%20Notebooks/Project%201%20Exploratory%20Analysis%20Updated.ipynb">2. Exploratory Analysis</a> - The notebook containing exploratory analyses </li>
+    <li><a href="https://github.com/Jcc329/Investigating-Clusters-Among-US-Birth-Data/blob/main/Notebooks/Exploratory%20Analysis%20HW%202.ipynb">2. Exploratory Analysis</a> - The notebook containing exploratory analyses </li>
     <li><a href="https://github.com/Jcc329/Select-the-best-Wine-Predicting-wine-quality/blob/main/Jupyter%20Notebooks/Project%201%20Technical%20Notebook%20Updated.ipynb">3. Technical Report</a> - The technical notebook containing the report and final models used.</li>
   </ul>
   <li><a href="https://github.com/Jcc329/Investigating-Clusters-Among-US-Birth-Data/blob/main/README.md">README.md</a> - An overview of the project and results</li> 

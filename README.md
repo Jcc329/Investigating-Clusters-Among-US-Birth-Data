@@ -56,7 +56,9 @@ The files used for this project included data from 2019 and documentation for th
 The original data file was a text file containing 5gb of data, consisting of 3757582 rows of data and 228 columns. After dropping rows with missing data and duplicates, as well as unneeded columns containing duplicate data (such as multiple recodes), data flags, and imputation flags (flags for were data was imputed which is not needed in this analysis) the final dataset contained 2897669 rows and 87 columns for a final file size of 561KB. 
 
 ### Conclusion
+After dimensionality reduction, there appear to be 6 clusters in the data, however, as the sihouette score (close to 0) and the visualization demonstrate, these clusteres overlap to a high degree. This makes it difficult to draw actionable insights from the data. Additional analysis may be required to tease out the nuances of this data and discover targets for intervension.
 
+Despite not finding clear clusters in the data, I was able to gain experience applying a clustering algorithm as well as working with a larger, more complex dataset than I am used to. I was able to gain a better understanding of PCA and how to apply it practically, as well as what DBSCAN is, when it is best applied, and how to determine the values for each of the parameters. I feel that I have gained a lot through this project in terms of experience and practice. 
 
 ### Packages and Software
 Software:
